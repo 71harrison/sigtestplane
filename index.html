@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta
+      charset="UTF-8"
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+  </head>
+
+  <body>
+    <section class="section">
+      <div class="title">
+        <h1>Sigificance Test</h1>
+      </div>
+      <div class="box groupA">
+        <h2 class="subtitle">Group A</h2>
+        <div class="control">
+          <label for="sizePopA" class="label">N-Size of Group A</label>
+          <input
+            type="number"
+            name="sizePopA"
+            id="sizePopA"
+            value=""
+            placeholder="how many responses?"
+            class="is-rounded input is-primary"
+          />
+        </div>
+
+        <label for="favPopA" class="label">Favorability of Group A</label>
+        <input
+          type="number"
+          name="favPopA"
+          id="favPopA"
+          value=""
+          placeholder="what did they score?"
+          class="is-rounded input is-primary"
+        />
+      </div>
+
+      <div class="box">
+        <h2 class="subtitle">Group B</h2>
+
+        <label for="sizePopB" class="label">N-Size of Group B</label>
+        <input
+          type="number"
+          name="sizePopB"
+          id="sizePopB"
+          value=""
+          placeholder="how many responses?"
+          class="is-rounded input is-secondary"
+        />
+
+        <label for="favPopB" class="label">Favorability of Group B</label>
+        <input
+          type="number"
+          name="favPopB"
+          id="favPopB"
+          value=""
+          placeholder="what did they score?"
+          class="is-rounded input is-secondary"
+        />
+      </div>
+
+      <div class="block is-center">
+        <input
+          type="button"
+          id="runIt"
+          value="Submit"
+          class="button is-primary"
+        />
+      </div>
+
+      <div class="box">
+        <p id="displayInt">Confidence Interval is...</p>
+      </div>
+    </section>
+    <script src="src/index.js"></script>
+  </body>
+</html>
